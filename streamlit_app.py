@@ -27,8 +27,8 @@ html, body, [class*="css"] {
 
 /* ── 메트릭 카드 ── */
 div[data-testid="stMetric"] {
-    background: linear-gradient(135deg, #0F1923 0%, #162231 100%);
-    border: 1px solid rgba(94, 186, 213, 0.2);
+    background: linear-gradient(135deg, #12103A 0%, #1A1650 100%);
+    border: 1px solid rgba(99, 103, 255, 0.2);
     border-radius: 12px;
     padding: 20px 24px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -36,30 +36,30 @@ div[data-testid="stMetric"] {
 }
 div[data-testid="stMetric"]:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 30px rgba(94, 186, 213, 0.2);
-    border-color: rgba(94, 186, 213, 0.5);
+    box-shadow: 0 8px 30px rgba(99, 103, 255, 0.2);
+    border-color: rgba(132, 148, 255, 0.5);
 }
 div[data-testid="stMetric"] label {
-    color: #7AA2B3 !important;
+    color: #A9AACD !important;
     font-size: 0.85rem !important;
     font-weight: 500 !important;
 }
 div[data-testid="stMetric"] [data-testid="stMetricValue"] {
     font-size: 1.8rem !important;
     font-weight: 700 !important;
-    color: #E0F0F6 !important;
+    color: #EEEAFF !important;
 }
 
 /* ── 사이드바 ── */
 section[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #080E14 0%, #0F1923 100%);
-    border-right: 1px solid rgba(94, 186, 213, 0.15);
+    background: linear-gradient(180deg, #0A0920 0%, #12103A 100%);
+    border-right: 1px solid rgba(99, 103, 255, 0.15);
 }
 
 /* ── 탭 ── */
 .stTabs [data-baseweb="tab-list"] {
     gap: 8px;
-    background-color: rgba(15, 25, 35, 0.5);
+    background-color: rgba(18, 16, 58, 0.5);
     border-radius: 12px;
     padding: 4px;
 }
@@ -69,38 +69,38 @@ section[data-testid="stSidebar"] {
     font-weight: 500;
 }
 .stTabs [aria-selected="true"] {
-    background-color: rgba(94, 186, 213, 0.15) !important;
+    background-color: rgba(99, 103, 255, 0.15) !important;
     border-color: transparent !important;
 }
 
 /* ── 차트 컨테이너 ── */
 div[data-testid="stPlotlyChart"] {
-    background: rgba(15, 25, 35, 0.4);
+    background: rgba(18, 16, 58, 0.4);
     border-radius: 12px;
     padding: 8px;
-    border: 1px solid rgba(94, 186, 213, 0.1);
+    border: 1px solid rgba(99, 103, 255, 0.1);
     transition: border-color 0.3s ease;
 }
 div[data-testid="stPlotlyChart"]:hover {
-    border-color: rgba(94, 186, 213, 0.3);
+    border-color: rgba(132, 148, 255, 0.3);
 }
 
 /* ── 데이터프레임 ── */
 div[data-testid="stDataFrame"] {
     border-radius: 12px;
     overflow: hidden;
-    border: 1px solid rgba(94, 186, 213, 0.15);
+    border: 1px solid rgba(99, 103, 255, 0.15);
 }
 
-hr { border-color: rgba(94, 186, 213, 0.15) !important; }
+hr { border-color: rgba(99, 103, 255, 0.15) !important; }
 .block-container { padding-top: 2rem; }
 ::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: #080E14; }
-::-webkit-scrollbar-thumb { background: #5EBAD5; border-radius: 3px; }
+::-webkit-scrollbar-track { background: #0A0920; }
+::-webkit-scrollbar-thumb { background: #6367FF; border-radius: 3px; }
 
 /* ── 커스텀 컴포넌트 ── */
 .gradient-title {
-    background: linear-gradient(120deg, #5EBAD5 0%, #A8E6CF 30%, #5EBAD5 60%, #3D7EA6 100%);
+    background: linear-gradient(120deg, #6367FF 0%, #C9BEFF 30%, #8494FF 60%, #FFDBFD 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -114,18 +114,18 @@ hr { border-color: rgba(94, 186, 213, 0.15) !important; }
     50% { background-position: 100% center; }
     100% { background-position: 0% center; }
 }
-.page-subtitle { color: #7AA2B3; font-size: 1rem; margin-bottom: 2rem; }
+.page-subtitle { color: #A9AACD; font-size: 1rem; margin-bottom: 2rem; }
 .section-header {
-    color: #A8E6CF;
+    color: #C9BEFF;
     font-size: 1.15rem;
     font-weight: 600;
     margin: 1.5rem 0 1rem 0;
     padding-left: 12px;
-    border-left: 3px solid #5EBAD5;
+    border-left: 3px solid #6367FF;
 }
 .kpi-card {
-    background: linear-gradient(135deg, #0F1923 0%, #162231 100%);
-    border: 1px solid rgba(94, 186, 213, 0.2);
+    background: linear-gradient(135deg, #12103A 0%, #1A1650 100%);
+    border: 1px solid rgba(99, 103, 255, 0.2);
     border-radius: 16px;
     padding: 24px;
     text-align: center;
@@ -141,16 +141,16 @@ hr { border-color: rgba(94, 186, 213, 0.15) !important; }
 }
 .kpi-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 30px rgba(94, 186, 213, 0.15);
+    box-shadow: 0 8px 30px rgba(99, 103, 255, 0.15);
 }
-.kpi-card.good::before { background: linear-gradient(90deg, #6BCB77, #A8E6CF); }
-.kpi-card.moderate::before { background: linear-gradient(90deg, #F5D5A0, #FFB347); }
+.kpi-card.good::before { background: linear-gradient(90deg, #6BCB77, #C9BEFF); }
+.kpi-card.moderate::before { background: linear-gradient(90deg, #FFDBFD, #C9BEFF); }
 .kpi-card.bad::before { background: linear-gradient(90deg, #FF6B6B, #FF4757); }
-.kpi-card.info::before { background: linear-gradient(90deg, #5EBAD5, #A8E6CF); }
+.kpi-card.info::before { background: linear-gradient(90deg, #6367FF, #8494FF); }
 .kpi-icon { font-size: 2rem; margin-bottom: 8px; }
-.kpi-value { font-size: 2rem; font-weight: 700; color: #E0F0F6; margin: 4px 0; }
-.kpi-label { font-size: 0.85rem; color: #7AA2B3; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
-.kpi-sub { font-size: 0.8rem; color: #5EBAD5; margin-top: 6px; }
+.kpi-value { font-size: 2rem; font-weight: 700; color: #EEEAFF; margin: 4px 0; }
+.kpi-label { font-size: 0.85rem; color: #A9AACD; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.kpi-sub { font-size: 0.8rem; color: #8494FF; margin-top: 6px; }
 
 .grade-badge {
     display: inline-block;
@@ -170,17 +170,17 @@ hr { border-color: rgba(94, 186, 213, 0.15) !important; }
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 3. 차트 공통 설정
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-COLORS = ["#5EBAD5", "#A8E6CF", "#FFB347", "#FF6B6B", "#C39BD3", "#F5D5A0", "#6BCB77"]
+COLORS = ["#6367FF", "#8494FF", "#C9BEFF", "#FFDBFD", "#6BCB77", "#FFB347", "#FF6B6B"]
 DARK_LAYOUT = dict(
     paper_bgcolor="rgba(0,0,0,0)",
     plot_bgcolor="rgba(0,0,0,0)",
-    font=dict(family="Inter, sans-serif", color="#C0D8E4", size=12),
+    font=dict(family="Inter, sans-serif", color="#D0CCEF", size=12),
     margin=dict(l=20, r=20, t=50, b=20),
     legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(size=11),
                 orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-    xaxis=dict(gridcolor="rgba(94,186,213,0.08)", zerolinecolor="rgba(94,186,213,0.1)"),
-    yaxis=dict(gridcolor="rgba(94,186,213,0.08)", zerolinecolor="rgba(94,186,213,0.1)"),
-    hoverlabel=dict(bgcolor="#0F1923", font_size=12, font_color="#E0F0F6"),
+    xaxis=dict(gridcolor="rgba(99,103,255,0.08)", zerolinecolor="rgba(99,103,255,0.1)"),
+    yaxis=dict(gridcolor="rgba(99,103,255,0.08)", zerolinecolor="rgba(99,103,255,0.1)"),
+    hoverlabel=dict(bgcolor="#12103A", font_size=12, font_color="#EEEAFF"),
 )
 
 POLLUTANT_INFO = {
@@ -199,15 +199,15 @@ POLLUTANT_INFO = {
 }
 
 POLLUTANT_COLORS = {
-    "PM10": "#FF6B6B", "PM25": "#FF4757", "O3": "#FFB347",
-    "NO2": "#C39BD3", "CO": "#5EBAD5", "SO2": "#F5D5A0",
+    "PM10": "#FF6B6B", "PM25": "#FFDBFD", "O3": "#FFB347",
+    "NO2": "#C9BEFF", "CO": "#6367FF", "SO2": "#8494FF",
 }
 
 
 def apply_dark(fig, title=""):
     fig.update_layout(**DARK_LAYOUT)
     if title:
-        fig.update_layout(title=dict(text=title, font=dict(size=16, color="#A8E6CF")))
+        fig.update_layout(title=dict(text=title, font=dict(size=16, color="#C9BEFF")))
     return fig
 
 
@@ -266,9 +266,9 @@ with st.sidebar:
     st.markdown("""
     <div style="text-align:center; padding:1rem 0 1.5rem 0;">
         <div style="font-size:2.5rem; margin-bottom:4px;">🌬️</div>
-        <div style="font-size:1.1rem; font-weight:700; color:#A8E6CF; letter-spacing:1px;">
+        <div style="font-size:1.1rem; font-weight:700; color:#C9BEFF; letter-spacing:1px;">
             AIR QUALITY</div>
-        <div style="font-size:0.75rem; color:#7AA2B3; margin-top:2px;">
+        <div style="font-size:0.75rem; color:#A9AACD; margin-top:2px;">
             2025년 1월 대기질 모니터링</div>
     </div>""", unsafe_allow_html=True)
     st.divider()
